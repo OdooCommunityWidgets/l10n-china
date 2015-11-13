@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+         <!-- Create a transporter -->
+
+        <record id="res_partner_23" model="res.partner">
+            <field name="name">Hong Kong SpeedPost</field>
+            <field name="is_company">1</field>
+            <field name="supplier">1</field>
+            <field eval="0" name="customer"/>
+            <field name="city"></field>
+            <field name="zip"></field>
+            <field model="res.country" name="country_id" search="[('code','ilike','us')]"/>
+            <field name="street"></field>
+        </record>
+
+        <!-- Create a service product -->
+
+        <record id="product_product_delivery" model="product.product">
+            <field name="name">Delivery by Hong Kong SpeedPost</field>
+            <field name="default_code">DELIVERY-HKSPEEDPOST</field>
+            <field name="type">service</field>
+            <field name="categ_id" ref="product.product_category_3"/>
+            <field name="standard_price">0</field>
+            <field name="list_price">0</field>
+            <field name="image" type="base64" file="delivery/static/img/product_product_delivery-image.jpg"/>
+        </record>
+
+        <!-- Carrier -->
+
+        <record id="delivery_carrier" model="delivery.carrier">
+            <field name="name">Hong Kong SpeedPost</field>
+            <field name="normal_price">0</field>
+            <field name="partner_id" ref="res_partner_23"/>
+            <field name="product_id" ref="product_product_delivery"/>
+            <field name="use_detailed_pricelist" eval="True"/>
+        </record>
+
+        <!-- <record id="free_delivery_carrier" model="delivery.carrier">
+            <field name="name">Free delivery charges</field>
+            <field name="normal_price">0</field>
+            <field name="free_if_more_than">False</field>
+            <field name="amount">0</field>
+            <field name="partner_id" ref="res_partner_23"/>
+            <field name="product_id" ref="product_product_delivery"/>
+        </record>
+        <record id="normal_delivery_carrier" model="delivery.carrier">
+            <field name="name">Normal Delivery Charges</field>
+            <field name="normal_price">10</field>
+            <field name="partner_id" ref="res_partner_23"/>
+            <field name="product_id" ref="product_product_delivery"/>
+        </record> -->
+
+        <record forcecreate="True" id="property_delivery_carrier" model="ir.property">
+            <field name="name">property_delivery_carrier</field>
+            <field name="fields_id" search="[('model','=','res.partner'),('name','=','property_delivery_carrier')]"/>
+            <field name="value" eval="'delivery.carrier,'+str(ref('normal_delivery_carrier'))"/>
+        </record>
+    </data>
+</openerp>
