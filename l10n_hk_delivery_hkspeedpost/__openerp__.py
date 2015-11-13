@@ -24,16 +24,17 @@
     'version': '8.0.0.2.0',
     'author': "Luke Branch,Odoo Community Association (OCA)",
     'maintainer': 'Luke Branch',
-    'category': '',
+    'category': 'Localization,Inventory',
     'depends': [
-        '',
+        'base',
+        'delivery'        
     ],
     'description': """
 Delivery Carrier 10n-HK Hong Kong SpeedPost
 ===========================================
 Description
 -----------
-* Adds Hong Kong SpeedPost Delivery rates grid for shipments originating in Hong Kong for delivery worldwide using public rates found in the SpeedPost Rate Plan (http://www.hongkongpost.hk/filemanager/common/forms/pos15a_posting_guide.pdf).
+* Adds Hong Kong SpeedPost Delivery rates grid for shipments originating in Hong Kong for delivery worldwide using local public rates found in the SpeedPost Rate Plan (http://www.hongkongpost.hk/filemanager/common/forms/pos15a_posting_guide.pdf).
 
 Contributors
 ------------
@@ -42,7 +43,7 @@ Contributors
     """,
     'website': 'http://',
     'data': [
-        '___.xml',
+        # '___.xml',
     ],
     'tests': [],
     'installable': False,
