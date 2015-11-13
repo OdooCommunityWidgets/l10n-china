@@ -1,4 +1,4 @@
-# DO NOT INSTALL
+# DO NOT INSTALL!!
 ## UNDER ACTIVE DEVELOPMENT
 
 # l10n_hk_delivery_hkspeedpost
