@@ -1,4 +1,5 @@
-# DO NOT INSTALL THIS MODULE - UNDER ACTIVE DEVELOPMENT
+# DO NOT INSTALL
+## UNDER ACTIVE DEVELOPMENT
 
 # l10n_hk_delivery_hkspeedpost
 This repository has been created to gather the delivery rates related to the localization of Hong Kong.
