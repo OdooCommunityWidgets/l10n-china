@@ -41,9 +41,20 @@ Contributors
 * Luke BRANCH <odoocommunitywidgets@gmail.com>
 ----
     """,
-    'website': 'http://',
+    'website': 'https://github.com/odoocommunitywidgets',
     'data': [
-        # '___.xml',
+        'rates/delivery_rates_base.xml',
+        'rates/delivery_rates_af.xml',
+        'rates/delivery_rates_al.xml',
+        'rates/delivery_rates_dz.xml',
+        'rates/delivery_rates_ad.xml',
+        'rates/delivery_rates_ao.xml',
+        'rates/delivery_rates_ai.xml',
+        'rates/delivery_rates_ag.xml',
+        'rates/delivery_rates_ar.xml',
+        'rates/delivery_rates_am.xml',
+        'rates/delivery_rates_aw.xml',
+        'rates/delivery_rates_au.xml',
     ],
     'tests': [],
     'installable': False,
