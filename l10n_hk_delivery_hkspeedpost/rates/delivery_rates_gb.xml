@@ -5,7 +5,7 @@
         <!-- Carrier Grids -->
 
         <record id="delivery_grid" model="delivery.grid">
-            <field name="name">HK SpeedPost (英國United Kingdom)</field>
+            <field name="name">HK SpeedPost (英國 United Kingdom)</field>
             <field name="carrier_id" ref="delivery_carrier"/>
             <field name="country_ids">base.gb</field>
         </record>
