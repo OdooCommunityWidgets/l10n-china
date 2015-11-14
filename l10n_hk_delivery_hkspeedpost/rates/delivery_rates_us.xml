@@ -2,7 +2,7 @@
 <openerp>
     <data noupdate="1">
 
-        <!-- Carrier Grids -->
+        <!-- Carrier Grids --> 
 
         <record id="delivery_grid" model="delivery.grid">
             <field name="name">HK SpeedPost (美國 United States of America)</field>
