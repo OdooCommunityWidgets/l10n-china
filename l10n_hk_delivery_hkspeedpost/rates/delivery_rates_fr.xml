@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <!-- Carrier Grids -->
+
+        <record id="delivery_grid" model="delivery.grid">
+            <field name="name">HK SpeedPost (法國 France)</field>
+            <field name="carrier_id" ref="delivery_carrier"/>
+            <field name="country_ids">base.fr</field>
+        </record>
+        <!--  delivery charge of product if weight less than or equal 0.5kg-->
+        <record id="delivery_grid_line1" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid"/>
+            <field name="operator">&lt;=</field>
+            <field name="type">weight</field>
+            <field name="price_type">fixed</field>
+            <field name="sequence">10</field>
+            <field name="name">Weight &lt;= 0.5kg</field>
+            <field eval="0.5" name="max_value"/>
+            <field eval="458" name="list_price"/>
+            <field eval="458" name="standard_price"/>
+        </record>
+        <!--  delivery charge of product if weight less than or equal 1.0kg-->
+        <record id="delivery_grid_line2" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid"/>
+            <field name="operator">&lt;=</field>
+            <field name="type">weight</field>
+            <field name="price_type">fixed</field>
+            <field name="sequence">10</field>
+            <field name="name">Weight &lt;= 1.0kg</field>
+            <field eval="1.0" name="max_value"/>
+            <field eval="562" name="list_price"/>
+            <field eval="562" name="standard_price"/>
+        </record>
+        <!--  delivery charge of product if weight less than or equal 1.5kg-->
+        <record id="delivery_grid_line2" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid"/>
+            <field name="operator">&lt;=</field>
+            <field name="type">weight</field>
+            <field name="price_type">fixed</field>
+            <field name="sequence">10</field>
+            <field name="name">Weight &lt;= 1.5kg</field>
+            <field eval="1.5" name="max_value"/>
+            <field eval="666" name="list_price"/>
+            <field eval="666" name="standard_price"/>
+        </record>
+        <!--  delivery charge of product if weight less than or equal 2.0kg-->
+        <record id="delivery_grid_line2" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid"/>
+            <field name="operator">&lt;=</field>
+            <field name="type">weight</field>
+            <field name="price_type">fixed</field>
+            <field name="sequence">10</field>
+            <field name="name">Weight &lt;= 2.0kg</field>
+            <field eval="2.0" name="max_value"/>
+            <field eval="770" name="list_price"/>
+            <field eval="770" name="standard_price"/>
+        </record>
+        <!--  delivery charge of product if weight more than 5kg
+        <record id="delivery_grid_line2" model="delivery.grid.line">
+            <field name="name">Weight &gt; 5kg</field>
+            <field name="grid_id" ref="delivery_grid"/>
+            <field name="operator">&gt;=</field>
+            <field eval="5" name="max_value"/>
+            <field eval="50" name="list_price"/>
+            <field eval="30" name="standard_price"/>
+        </record> -->
+
+        <!--  free delivery charge if price more than 300
+        <record id="delivery_grid_line3" model="delivery.grid.line">
+            <field name="name">Free if price &gt;= 300</field>
+            <field name="grid_id" ref="delivery_grid"/>
+            <field eval="300" name="max_value"/>
+            <field name="operator">&gt;=</field>
+            <field name="type">price</field>
+            <field eval="0" name="list_price"/>
+            <field eval="0" name="standard_price"/>
+        </record> -->
+
+        <record forcecreate="True" id="property_delivery_carrier" model="ir.property">
+            <field name="name">property_delivery_carrier</field>
+            <field name="fields_id" search="[('model','=','res.partner'),('name','=','property_delivery_carrier')]"/>
+            <field name="value" eval="'delivery.carrier,'+str(ref('normal_delivery_carrier'))"/>
+        </record>
+    </data>
+</openerp>
