@@ -21,7 +21,7 @@
             <field name="name">Delivery by Hong Kong SpeedPost</field>
             <field name="default_code">DELIVERY-HKSPEEDPOST</field>
             <field name="type">service</field>
-            <field name="categ_id" ref="product.product_category_3"/>
+            <!-- <field name="categ_id" ref="product.product_category_3"/> -->
             <field name="standard_price">0</field>
             <field name="list_price">0</field>
             <field name="image" type="base64" file="delivery/static/img/product_product_delivery-image.jpg"/>
@@ -52,10 +52,10 @@
             <field name="product_id" ref="product_product_delivery"/>
         </record> -->
 
-        <record forcecreate="True" id="property_delivery_carrier" model="ir.property">
+<!--        <record forcecreate="True" id="property_delivery_carrier" model="ir.property">
             <field name="name">property_delivery_carrier</field>
             <field name="fields_id" search="[('model','=','res.partner'),('name','=','property_delivery_carrier')]"/>
             <field name="value" eval="'delivery.carrier,'+str(ref('normal_delivery_carrier'))"/>
-        </record>
+        </record>  -->
     </data>
 </openerp>
