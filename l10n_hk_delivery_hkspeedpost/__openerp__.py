@@ -24,7 +24,7 @@
     'version': '8.0.0.2.0',
     'author': "Luke Branch,Odoo Community Association (OCA)",
     'maintainer': 'Luke Branch',
-    'category': 'Localization,Inventory',
+    'category': 'Localization',
     'depends': [
         'base',
         'delivery'        
