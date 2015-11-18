@@ -46,10 +46,10 @@ Contributors
         # Country rates ordered by ISO two digit codes
         # Line numbers in comments based on delivery grid pdf from HK SpeedPost
         'rates/delivery_rates_base.xml',  # base for adding delivery product and carrier
-#        'rates/delivery_rates_af.xml',    #01
-#        'rates/delivery_rates_al.xml',    #02
+        'rates/delivery_rates_af.xml',    #01
+        'rates/delivery_rates_al.xml',    #02
 #        'rates/delivery_rates_dz.xml',    #03
-#        'rates/delivery_rates_ad.xml',    #04
+        'rates/delivery_rates_ad.xml',    #04
 #        'rates/delivery_rates_ao.xml',    #05
 #        'rates/delivery_rates_ai.xml',    #06
 #        'rates/delivery_rates_ag.xml',    #07
@@ -79,7 +79,7 @@ Contributors
 #        'rates/delivery_rates_bi.xml',    #31
 #        'rates/delivery_rates_kh.xml',    #32
 #        'rates/delivery_rates_cm.xml',    #33
-#        'rates/delivery_rates_ca.xml',    #34
+        'rates/delivery_rates_ca.xml',    #34
 #        'rates/delivery_rates_cv.xml',    #35
 #        'rates/delivery_rates_fm.xml',    #36
 #        'rates/delivery_rates_pw.xml',    #37
@@ -112,7 +112,7 @@ Contributors
 #        'rates/delivery_rates_fo.xml',    #64
 #        'rates/delivery_rates_fj.xml',    #65
 #        'rates/delivery_rates_fi.xml',    #66
-#        'rates/delivery_rates_fr.xml',    #67
+        'rates/delivery_rates_fr.xml',    #67
 #        'rates/delivery_rates_gf.xml',    #68
 #        'rates/delivery_rates_pf.xml',    #69
 #        'rates/delivery_rates_ga.xml',    #70
@@ -143,7 +143,7 @@ Contributors
 #        'rates/delivery_rates_il.xml',    #95
 #        'rates/delivery_rates_it.xml',    #96
 #        'rates/delivery_rates_jm.xml',    #97
-#        'rates/delivery_rates_jp.xml',    #98
+        'rates/delivery_rates_jp.xml',    #98
 #        'rates/delivery_rates_jo.xml',    #99
 #        'rates/delivery_rates_kz.xml',    #100
 #        'rates/delivery_rates_ke.xml',    #101
@@ -251,7 +251,7 @@ Contributors
 #        'rates/delivery_rates_ug.xml',    #203
 #        'rates/delivery_rates_ua.xml',    #204
 #        'rates/delivery_rates_ae.xml',    #205
-#        'rates/delivery_rates_gb.xml',    #206
+        'rates/delivery_rates_gb.xml',    #206
         'rates/delivery_rates_us.xml',    #207
 #        'rates/delivery_rates_uy.xml',    #208
 #        'rates/delivery_rates_uz.xml',    #209
@@ -265,7 +265,7 @@ Contributors
 #        'rates/delivery_rates_zw.xml',    #217
     ],
     'tests': [],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'license': 'AGPL-3',
     'application': False,
