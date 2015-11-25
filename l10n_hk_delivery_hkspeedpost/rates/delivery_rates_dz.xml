@@ -22,7 +22,7 @@
             <field eval="478" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 1.0kg-->
-        <record id="delivery_grid_line2" model="delivery.grid.line">
+        <record id="delivery_grid_line122" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -34,7 +34,7 @@
             <field eval="582" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 1.5kg-->
-        <record id="delivery_grid_line3" model="delivery.grid.line">
+        <record id="delivery_grid_line123" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -46,7 +46,7 @@
             <field eval="686" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 2.0kg-->
-        <record id="delivery_grid_line4" model="delivery.grid.line">
+        <record id="delivery_grid_line124" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -58,7 +58,7 @@
             <field eval="790" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 2.5kg-->
-        <record id="delivery_grid_line5" model="delivery.grid.line">
+        <record id="delivery_grid_line125" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -70,7 +70,7 @@
             <field eval="894" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 3.0kg-->
-        <record id="delivery_grid_line6" model="delivery.grid.line">
+        <record id="delivery_grid_line126" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -82,7 +82,7 @@
             <field eval="998" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 3.5kg-->
-        <record id="delivery_grid_line7" model="delivery.grid.line">
+        <record id="delivery_grid_line127" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -94,7 +94,7 @@
             <field eval="1102" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 4.0kg-->
-        <record id="delivery_grid_line8" model="delivery.grid.line">
+        <record id="delivery_grid_line128" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -106,7 +106,7 @@
             <field eval="1206" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 4.5kg-->
-        <record id="delivery_grid_line9" model="delivery.grid.line">
+        <record id="delivery_grid_line129" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -118,7 +118,7 @@
             <field eval="1310" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 5.0kg-->
-        <record id="delivery_grid_line10" model="delivery.grid.line">
+        <record id="delivery_grid_line130" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -130,7 +130,7 @@
             <field eval="1414" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 5.5kg-->
-        <record id="delivery_grid_line11" model="delivery.grid.line">
+        <record id="delivery_grid_line131" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -142,7 +142,7 @@
             <field eval="1518" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 6.0kg-->
-        <record id="delivery_grid_line12" model="delivery.grid.line">
+        <record id="delivery_grid_line132" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -154,7 +154,7 @@
             <field eval="1622" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 6.5kg-->
-        <record id="delivery_grid_line13" model="delivery.grid.line">
+        <record id="delivery_grid_line133" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -166,7 +166,7 @@
             <field eval="1726" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 7.0kg-->
-        <record id="delivery_grid_line14" model="delivery.grid.line">
+        <record id="delivery_grid_line134" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -178,7 +178,7 @@
             <field eval="1830" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 7.5kg-->
-        <record id="delivery_grid_line15" model="delivery.grid.line">
+        <record id="delivery_grid_line135" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -190,7 +190,7 @@
             <field eval="1934" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 8.0kg-->
-        <record id="delivery_grid_line16" model="delivery.grid.line">
+        <record id="delivery_grid_line136" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -202,7 +202,7 @@
             <field eval="2038" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 8.5kg-->
-        <record id="delivery_grid_line17" model="delivery.grid.line">
+        <record id="delivery_grid_line137" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -214,7 +214,7 @@
             <field eval="2132" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 9.0kg-->
-        <record id="delivery_grid_line18" model="delivery.grid.line">
+        <record id="delivery_grid_line138" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -226,7 +226,7 @@
             <field eval="2226" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 9.5kg-->
-        <record id="delivery_grid_line19" model="delivery.grid.line">
+        <record id="delivery_grid_line139" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -238,7 +238,7 @@
             <field eval="2320" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 10.0kg-->
-        <record id="delivery_grid_line20" model="delivery.grid.line">
+        <record id="delivery_grid_line140" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -250,7 +250,7 @@
             <field eval="2414" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 10.5kg-->
-        <record id="delivery_grid_line21" model="delivery.grid.line">
+        <record id="delivery_grid_line141" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -262,7 +262,7 @@
             <field eval="2508" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 11.0kg-->
-        <record id="delivery_grid_line22" model="delivery.grid.line">
+        <record id="delivery_grid_line142" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -274,7 +274,7 @@
             <field eval="2602" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 11.5kg-->
-        <record id="delivery_grid_line23" model="delivery.grid.line">
+        <record id="delivery_grid_line143" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -286,7 +286,7 @@
             <field eval="2696" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 12.0kg-->
-        <record id="delivery_grid_line24" model="delivery.grid.line">
+        <record id="delivery_grid_line144" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -298,7 +298,7 @@
             <field eval="2790" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 12.5kg-->
-        <record id="delivery_grid_line25" model="delivery.grid.line">
+        <record id="delivery_grid_line145" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -310,7 +310,7 @@
             <field eval="2884" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 13.0kg-->
-        <record id="delivery_grid_line26" model="delivery.grid.line">
+        <record id="delivery_grid_line146" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -322,7 +322,7 @@
             <field eval="2978" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 13.5kg-->
-        <record id="delivery_grid_line27" model="delivery.grid.line">
+        <record id="delivery_grid_line147" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -334,7 +334,7 @@
             <field eval="3072" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 14.0kg-->
-        <record id="delivery_grid_line28" model="delivery.grid.line">
+        <record id="delivery_grid_line148" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -346,7 +346,7 @@
             <field eval="3166" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 14.5kg-->
-        <record id="delivery_grid_line29" model="delivery.grid.line">
+        <record id="delivery_grid_line149" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -358,7 +358,7 @@
             <field eval="3260" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 15.0kg-->
-        <record id="delivery_grid_line30" model="delivery.grid.line">
+        <record id="delivery_grid_line150" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -370,7 +370,7 @@
             <field eval="3354" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 15.5kg-->
-        <record id="delivery_grid_line31" model="delivery.grid.line">
+        <record id="delivery_grid_line151" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -382,7 +382,7 @@
             <field eval="3443" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 16.0kg-->
-        <record id="delivery_grid_line32" model="delivery.grid.line">
+        <record id="delivery_grid_line152" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -394,7 +394,7 @@
             <field eval="3532" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 16.5kg-->
-        <record id="delivery_grid_line33" model="delivery.grid.line">
+        <record id="delivery_grid_line153" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -406,7 +406,7 @@
             <field eval="3621" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 17.0kg-->
-        <record id="delivery_grid_line34" model="delivery.grid.line">
+        <record id="delivery_grid_line154" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -418,7 +418,7 @@
             <field eval="3710" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 17.5kg-->
-        <record id="delivery_grid_line35" model="delivery.grid.line">
+        <record id="delivery_grid_line155" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -430,7 +430,7 @@
             <field eval="3799" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 18.0kg-->
-        <record id="delivery_grid_line36" model="delivery.grid.line">
+        <record id="delivery_grid_line156" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -442,7 +442,7 @@
             <field eval="3888" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 18.5kg-->
-        <record id="delivery_grid_line37" model="delivery.grid.line">
+        <record id="delivery_grid_line157" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -454,7 +454,7 @@
             <field eval="3977" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 19.0kg-->
-        <record id="delivery_grid_line38" model="delivery.grid.line">
+        <record id="delivery_grid_line158" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -466,7 +466,7 @@
             <field eval="4066" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 19.5kg-->
-        <record id="delivery_grid_line39" model="delivery.grid.line">
+        <record id="delivery_grid_line159" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -478,7 +478,7 @@
             <field eval="4155" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 20.0kg-->
-        <record id="delivery_grid_line40" model="delivery.grid.line">
+        <record id="delivery_grid_line160" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -490,7 +490,7 @@
             <field eval="4244" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 20.5kg-->
-        <record id="delivery_grid_line41" model="delivery.grid.line">
+        <record id="delivery_grid_line161" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -502,7 +502,7 @@
             <field eval="4328" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 21.0kg-->
-        <record id="delivery_grid_line42" model="delivery.grid.line">
+        <record id="delivery_grid_line162" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -514,7 +514,7 @@
             <field eval="4412" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 21.5kg-->
-        <record id="delivery_grid_line43" model="delivery.grid.line">
+        <record id="delivery_grid_line163" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -526,7 +526,7 @@
             <field eval="4496" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 22.0kg-->
-        <record id="delivery_grid_line44" model="delivery.grid.line">
+        <record id="delivery_grid_line164" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -538,7 +538,7 @@
             <field eval="4580" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 22.5kg-->
-        <record id="delivery_grid_line45" model="delivery.grid.line">
+        <record id="delivery_grid_line165" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -550,7 +550,7 @@
             <field eval="4664" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 23.0kg-->
-        <record id="delivery_grid_line46" model="delivery.grid.line">
+        <record id="delivery_grid_line166" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -562,7 +562,7 @@
             <field eval="4748" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 23.5kg-->
-        <record id="delivery_grid_line47" model="delivery.grid.line">
+        <record id="delivery_grid_line167" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -574,7 +574,7 @@
             <field eval="4832" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 24.0kg-->
-        <record id="delivery_grid_line48" model="delivery.grid.line">
+        <record id="delivery_grid_line168" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -586,7 +586,7 @@
             <field eval="4916" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 24.5kg-->
-        <record id="delivery_grid_line49" model="delivery.grid.line">
+        <record id="delivery_grid_line169" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -598,7 +598,7 @@
             <field eval="5000" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 25.0kg-->
-        <record id="delivery_grid_line50" model="delivery.grid.line">
+        <record id="delivery_grid_line170" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -610,7 +610,7 @@
             <field eval="5084" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 25.5kg-->
-        <record id="delivery_grid_line51" model="delivery.grid.line">
+        <record id="delivery_grid_line171" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -622,7 +622,7 @@
             <field eval="5168" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 26.0kg-->
-        <record id="delivery_grid_line52" model="delivery.grid.line">
+        <record id="delivery_grid_line172" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -634,7 +634,7 @@
             <field eval="5252" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 26.5kg-->
-        <record id="delivery_grid_line53" model="delivery.grid.line">
+        <record id="delivery_grid_line173" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -646,7 +646,7 @@
             <field eval="5336" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 27.0kg-->
-        <record id="delivery_grid_line54" model="delivery.grid.line">
+        <record id="delivery_grid_line174" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -658,7 +658,7 @@
             <field eval="5420" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 27.5kg-->
-        <record id="delivery_grid_line55" model="delivery.grid.line">
+        <record id="delivery_grid_line175" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -670,7 +670,7 @@
             <field eval="5504" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 28.0kg-->
-        <record id="delivery_grid_line56" model="delivery.grid.line">
+        <record id="delivery_grid_line176" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -682,7 +682,7 @@
             <field eval="5588" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 28.5kg-->
-        <record id="delivery_grid_line57" model="delivery.grid.line">
+        <record id="delivery_grid_line177" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -694,7 +694,7 @@
             <field eval="5672" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 29.0kg-->
-        <record id="delivery_grid_line58" model="delivery.grid.line">
+        <record id="delivery_grid_line178" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -706,7 +706,7 @@
             <field eval="5756" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 29.5kg-->
-        <record id="delivery_grid_line59" model="delivery.grid.line">
+        <record id="delivery_grid_line179" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
@@ -718,7 +718,7 @@
             <field eval="5840" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 30.0kg-->
-        <record id="delivery_grid_line60" model="delivery.grid.line">
+        <record id="delivery_grid_line180" model="delivery.grid.line">
             <field name="grid_id" ref="delivery_grid_dz"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
