@@ -4,730 +4,490 @@
 
         <!-- Carrier Grids --> 
 
-        <record id="delivery_grid_ai" model="delivery.grid">
-            <field name="name">HK SpeedPost (阿富汗 Afghanistan)</field>
+        <record id="delivery_grid_ao" model="delivery.grid">
+            <field name="name">HK SpeedPost ("安哥拉 Angola")</field>
             <field name="carrier_id" ref="delivery_carrier"/>
-            <field name="country_ids">base.af</field>
+            <field name="country_ids">base.ao</field>
         </record>
         <!--  delivery charge of product if weight less than or equal 0.5kg-->
-        <record id="delivery_grid_line1" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line241" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 0.5kg</field>
             <field eval="0.5" name="max_value"/>
-            <field eval="176" name="list_price"/>
-            <field eval="176" name="standard_price"/>
+            <field eval="258" name="list_price"/>
+            <field eval="258" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 1.0kg-->
-        <record id="delivery_grid_line2" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line242" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 1.0kg</field>
             <field eval="1.0" name="max_value"/>
-            <field eval="241" name="list_price"/>
-            <field eval="241" name="standard_price"/>
+            <field eval="352" name="list_price"/>
+            <field eval="352" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 1.5kg-->
-        <record id="delivery_grid_line3" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line243" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 1.5kg</field>
             <field eval="1.5" name="max_value"/>
-            <field eval="306" name="list_price"/>
-            <field eval="306" name="standard_price"/>
+            <field eval="446" name="list_price"/>
+            <field eval="446" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 2.0kg-->
-        <record id="delivery_grid_line4" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line244" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 2.0kg</field>
             <field eval="2.0" name="max_value"/>
-            <field eval="371" name="list_price"/>
-            <field eval="371" name="standard_price"/>
+            <field eval="540" name="list_price"/>
+            <field eval="540" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 2.5kg-->
-        <record id="delivery_grid_line5" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line245" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 2.5kg</field>
             <field eval="2.5" name="max_value"/>
-            <field eval="436" name="list_price"/>
-            <field eval="436" name="standard_price"/>
+            <field eval="634" name="list_price"/>
+            <field eval="634" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 3.0kg-->
-        <record id="delivery_grid_line6" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line246" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 3.0kg</field>
             <field eval="3.0" name="max_value"/>
-            <field eval="501" name="list_price"/>
-            <field eval="501" name="standard_price"/>
+            <field eval="728" name="list_price"/>
+            <field eval="728" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 3.5kg-->
-        <record id="delivery_grid_line7" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line247" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 3.5kg</field>
             <field eval="3.5" name="max_value"/>
-            <field eval="566" name="list_price"/>
-            <field eval="566" name="standard_price"/>
+            <field eval="822" name="list_price"/>
+            <field eval="822" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 4.0kg-->
-        <record id="delivery_grid_line8" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line248" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 4.0kg</field>
             <field eval="4.0" name="max_value"/>
-            <field eval="631" name="list_price"/>
-            <field eval="631" name="standard_price"/>
+            <field eval="916" name="list_price"/>
+            <field eval="916" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 4.5kg-->
-        <record id="delivery_grid_line9" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line249" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 4.5kg</field>
             <field eval="4.5" name="max_value"/>
-            <field eval="696" name="list_price"/>
-            <field eval="696" name="standard_price"/>
+            <field eval="1010" name="list_price"/>
+            <field eval="1010" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 5.0kg-->
-        <record id="delivery_grid_line10" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line250" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 5.0kg</field>
             <field eval="5.0" name="max_value"/>
-            <field eval="761" name="list_price"/>
-            <field eval="761" name="standard_price"/>
+            <field eval="1104" name="list_price"/>
+            <field eval="1104" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 5.5kg-->
-        <record id="delivery_grid_line11" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line251" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 5.5kg</field>
             <field eval="5.5" name="max_value"/>
-            <field eval="813" name="list_price"/>
-            <field eval="813" name="standard_price"/>
+            <field eval="1190" name="list_price"/>
+            <field eval="1190" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 6.0kg-->
-        <record id="delivery_grid_line12" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line252" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 6.0kg</field>
             <field eval="6.0" name="max_value"/>
-            <field eval="855" name="list_price"/>
-            <field eval="855" name="standard_price"/>
+            <field eval="1276" name="list_price"/>
+            <field eval="1276" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 6.5kg-->
-        <record id="delivery_grid_line13" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line253" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 6.5kg</field>
             <field eval="6.5" name="max_value"/>
-            <field eval="897" name="list_price"/>
-            <field eval="897" name="standard_price"/>
+            <field eval="1362" name="list_price"/>
+            <field eval="1362" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 7.0kg-->
-        <record id="delivery_grid_line14" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line254" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 7.0kg</field>
             <field eval="7.0" name="max_value"/>
-            <field eval="939" name="list_price"/>
-            <field eval="939" name="standard_price"/>
+            <field eval="1448" name="list_price"/>
+            <field eval="1448" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 7.5kg-->
-        <record id="delivery_grid_line15" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line255" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 7.5kg</field>
             <field eval="7.5" name="max_value"/>
-            <field eval="981" name="list_price"/>
-            <field eval="981" name="standard_price"/>
+            <field eval="1534" name="list_price"/>
+            <field eval="1534" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 8.0kg-->
-        <record id="delivery_grid_line16" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line256" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 8.0kg</field>
             <field eval="8.0" name="max_value"/>
-            <field eval="1023" name="list_price"/>
-            <field eval="1023" name="standard_price"/>
+            <field eval="1620" name="list_price"/>
+            <field eval="1620" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 8.5kg-->
-        <record id="delivery_grid_line17" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line257" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 8.5kg</field>
             <field eval="8.5" name="max_value"/>
-            <field eval="1058" name="list_price"/>
-            <field eval="1058" name="standard_price"/>
+            <field eval="1697" name="list_price"/>
+            <field eval="1697" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 9.0kg-->
-        <record id="delivery_grid_line18" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line258" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 9.0kg</field>
             <field eval="9.0" name="max_value"/>
-            <field eval="1093" name="list_price"/>
-            <field eval="1093" name="standard_price"/>
+            <field eval="1774" name="list_price"/>
+            <field eval="1774" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 9.5kg-->
-        <record id="delivery_grid_line19" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line259" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 9.5kg</field>
             <field eval="9.5" name="max_value"/>
-            <field eval="1128" name="list_price"/>
-            <field eval="1128" name="standard_price"/>
+            <field eval="1851" name="list_price"/>
+            <field eval="1851" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 10.0kg-->
-        <record id="delivery_grid_line20" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line260" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 10.0kg</field>
             <field eval="10.0" name="max_value"/>
-            <field eval="1163" name="list_price"/>
-            <field eval="1163" name="standard_price"/>
+            <field eval="1928" name="list_price"/>
+            <field eval="1928" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 10.5kg-->
-        <record id="delivery_grid_line21" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line261" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 10.5kg</field>
             <field eval="10.5" name="max_value"/>
-            <field eval="1198" name="list_price"/>
-            <field eval="1198" name="standard_price"/>
+            <field eval="2005" name="list_price"/>
+            <field eval="2005" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 11.0kg-->
-        <record id="delivery_grid_line22" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line262" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 11.0kg</field>
             <field eval="11.0" name="max_value"/>
-            <field eval="1233" name="list_price"/>
-            <field eval="1233" name="standard_price"/>
+            <field eval="2082" name="list_price"/>
+            <field eval="2082" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 11.5kg-->
-        <record id="delivery_grid_line23" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line263" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 11.5kg</field>
             <field eval="11.5" name="max_value"/>
-            <field eval="1268" name="list_price"/>
-            <field eval="1268" name="standard_price"/>
+            <field eval="2159" name="list_price"/>
+            <field eval="2159" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 12.0kg-->
-        <record id="delivery_grid_line24" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line264" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 12.0kg</field>
             <field eval="12.0" name="max_value"/>
-            <field eval="1303" name="list_price"/>
-            <field eval="1303" name="standard_price"/>
+            <field eval="2236" name="list_price"/>
+            <field eval="2236" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 12.5kg-->
-        <record id="delivery_grid_line25" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line265" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 12.5kg</field>
             <field eval="12.5" name="max_value"/>
-            <field eval="1338" name="list_price"/>
-            <field eval="1338" name="standard_price"/>
+            <field eval="2313" name="list_price"/>
+            <field eval="2313" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 13.0kg-->
-        <record id="delivery_grid_line26" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line266" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 13.0kg</field>
             <field eval="13.0" name="max_value"/>
-            <field eval="1373" name="list_price"/>
-            <field eval="1373" name="standard_price"/>
+            <field eval="2390" name="list_price"/>
+            <field eval="2390" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 13.5kg-->
-        <record id="delivery_grid_line27" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line267" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 13.5kg</field>
             <field eval="13.5" name="max_value"/>
-            <field eval="1408" name="list_price"/>
-            <field eval="1408" name="standard_price"/>
+            <field eval="2467" name="list_price"/>
+            <field eval="2467" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 14.0kg-->
-        <record id="delivery_grid_line28" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line268" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 14.0kg</field>
             <field eval="14.0" name="max_value"/>
-            <field eval="1443" name="list_price"/>
-            <field eval="1443" name="standard_price"/>
+            <field eval="2544" name="list_price"/>
+            <field eval="2544" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 14.5kg-->
-        <record id="delivery_grid_line29" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line269" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 14.5kg</field>
             <field eval="14.5" name="max_value"/>
-            <field eval="1478" name="list_price"/>
-            <field eval="1478" name="standard_price"/>
+            <field eval="2621" name="list_price"/>
+            <field eval="2621" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 15.0kg-->
-        <record id="delivery_grid_line30" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line270" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 15.0kg</field>
             <field eval="15.0" name="max_value"/>
-            <field eval="1513" name="list_price"/>
-            <field eval="1513" name="standard_price"/>
+            <field eval="2698" name="list_price"/>
+            <field eval="2698" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 15.5kg-->
-        <record id="delivery_grid_line31" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line271" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 15.5kg</field>
             <field eval="15.5" name="max_value"/>
-            <field eval="1545" name="list_price"/>
-            <field eval="1545" name="standard_price"/>
+            <field eval="2773" name="list_price"/>
+            <field eval="2773" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 16.0kg-->
-        <record id="delivery_grid_line32" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line272" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 16.0kg</field>
             <field eval="16.0" name="max_value"/>
-            <field eval="1577" name="list_price"/>
-            <field eval="1577" name="standard_price"/>
+            <field eval="2848" name="list_price"/>
+            <field eval="2848" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 16.5kg-->
-        <record id="delivery_grid_line33" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line273" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 16.5kg</field>
             <field eval="16.5" name="max_value"/>
-            <field eval="1609" name="list_price"/>
-            <field eval="1609" name="standard_price"/>
+            <field eval="2923" name="list_price"/>
+            <field eval="2923" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 17.0kg-->
-        <record id="delivery_grid_line34" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line274" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 17.0kg</field>
             <field eval="17.0" name="max_value"/>
-            <field eval="1641" name="list_price"/>
-            <field eval="1641" name="standard_price"/>
+            <field eval="2998" name="list_price"/>
+            <field eval="2998" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 17.5kg-->
-        <record id="delivery_grid_line35" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line275" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 17.5kg</field>
             <field eval="17.5" name="max_value"/>
-            <field eval="1673" name="list_price"/>
-            <field eval="1673" name="standard_price"/>
+            <field eval="3073" name="list_price"/>
+            <field eval="3073" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 18.0kg-->
-        <record id="delivery_grid_line36" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line276" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 18.0kg</field>
             <field eval="18.0" name="max_value"/>
-            <field eval="1705" name="list_price"/>
-            <field eval="1705" name="standard_price"/>
+            <field eval="3148" name="list_price"/>
+            <field eval="3148" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 18.5kg-->
-        <record id="delivery_grid_line37" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line277" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 18.5kg</field>
             <field eval="18.5" name="max_value"/>
-            <field eval="1737" name="list_price"/>
-            <field eval="1737" name="standard_price"/>
+            <field eval="3223" name="list_price"/>
+            <field eval="3223" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 19.0kg-->
-        <record id="delivery_grid_line38" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line278" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 19.0kg</field>
             <field eval="19.0" name="max_value"/>
-            <field eval="1769" name="list_price"/>
-            <field eval="1769" name="standard_price"/>
+            <field eval="3298" name="list_price"/>
+            <field eval="3298" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 19.5kg-->
-        <record id="delivery_grid_line39" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line279" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 19.5kg</field>
             <field eval="19.5" name="max_value"/>
-            <field eval="1801" name="list_price"/>
-            <field eval="1801" name="standard_price"/>
+            <field eval="3373" name="list_price"/>
+            <field eval="3373" name="standard_price"/>
         </record>
         <!--  delivery charge of product if weight less than or equal 20.0kg-->
-        <record id="delivery_grid_line40" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
+        <record id="delivery_grid_line280" model="delivery.grid.line">
+            <field name="grid_id" ref="delivery_grid_ao"/>
             <field name="operator">&lt;=</field>
             <field name="type">weight</field>
             <field name="price_type">fixed</field>
             <field name="sequence">10</field>
             <field name="name">Weight &lt;= 20.0kg</field>
             <field eval="20.0" name="max_value"/>
-            <field eval="1833" name="list_price"/>
-            <field eval="1833" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 20.5kg-->
-        <record id="delivery_grid_line41" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 20.5kg</field>
-            <field eval="20.5" name="max_value"/>
-            <field eval="1863" name="list_price"/>
-            <field eval="1863" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 21.0kg-->
-        <record id="delivery_grid_line42" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 21.0kg</field>
-            <field eval="21.0" name="max_value"/>
-            <field eval="1893" name="list_price"/>
-            <field eval="1893" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 21.5kg-->
-        <record id="delivery_grid_line43" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 21.5kg</field>
-            <field eval="21.5" name="max_value"/>
-            <field eval="1923" name="list_price"/>
-            <field eval="1923" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 22.0kg-->
-        <record id="delivery_grid_line44" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 22.0kg</field>
-            <field eval="22.0" name="max_value"/>
-            <field eval="1953" name="list_price"/>
-            <field eval="1953" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 22.5kg-->
-        <record id="delivery_grid_line45" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 22.5kg</field>
-            <field eval="22.5" name="max_value"/>
-            <field eval="1983" name="list_price"/>
-            <field eval="1983" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 23.0kg-->
-        <record id="delivery_grid_line46" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 23.0kg</field>
-            <field eval="23.0" name="max_value"/>
-            <field eval="2013" name="list_price"/>
-            <field eval="2013" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 23.5kg-->
-        <record id="delivery_grid_line47" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 23.5kg</field>
-            <field eval="23.5" name="max_value"/>
-            <field eval="2043" name="list_price"/>
-            <field eval="2043" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 24.0kg-->
-        <record id="delivery_grid_line48" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 24.0kg</field>
-            <field eval="24.0" name="max_value"/>
-            <field eval="2073" name="list_price"/>
-            <field eval="2073" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 24.5kg-->
-        <record id="delivery_grid_line49" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 24.5kg</field>
-            <field eval="24.5" name="max_value"/>
-            <field eval="2103" name="list_price"/>
-            <field eval="2103" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 25.0kg-->
-        <record id="delivery_grid_line50" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 25.0kg</field>
-            <field eval="25.0" name="max_value"/>
-            <field eval="2133" name="list_price"/>
-            <field eval="2133" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 25.5kg-->
-        <record id="delivery_grid_line51" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 25.5kg</field>
-            <field eval="25.5" name="max_value"/>
-            <field eval="2160" name="list_price"/>
-            <field eval="2160" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 26.0kg-->
-        <record id="delivery_grid_line52" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 26.0kg</field>
-            <field eval="26.0" name="max_value"/>
-            <field eval="2187" name="list_price"/>
-            <field eval="2187" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 26.5kg-->
-        <record id="delivery_grid_line53" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 26.5kg</field>
-            <field eval="26.5" name="max_value"/>
-            <field eval="2214" name="list_price"/>
-            <field eval="2214" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 27.0kg-->
-        <record id="delivery_grid_line54" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 27.0kg</field>
-            <field eval="27.0" name="max_value"/>
-            <field eval="2241" name="list_price"/>
-            <field eval="2241" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 27.5kg-->
-        <record id="delivery_grid_line55" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 27.5kg</field>
-            <field eval="27.5" name="max_value"/>
-            <field eval="2268" name="list_price"/>
-            <field eval="2268" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 28.0kg-->
-        <record id="delivery_grid_line56" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 28.0kg</field>
-            <field eval="28.0" name="max_value"/>
-            <field eval="2295" name="list_price"/>
-            <field eval="2295" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 28.5kg-->
-        <record id="delivery_grid_line57" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 28.5kg</field>
-            <field eval="28.5" name="max_value"/>
-            <field eval="2322" name="list_price"/>
-            <field eval="2322" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 29.0kg-->
-        <record id="delivery_grid_line58" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 29.0kg</field>
-            <field eval="29.0" name="max_value"/>
-            <field eval="2349" name="list_price"/>
-            <field eval="2349" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 29.5kg-->
-        <record id="delivery_grid_line59" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 29.5kg</field>
-            <field eval="29.5" name="max_value"/>
-            <field eval="2376" name="list_price"/>
-            <field eval="2376" name="standard_price"/>
-        </record>
-        <!--  delivery charge of product if weight less than or equal 30.0kg-->
-        <record id="delivery_grid_line60" model="delivery.grid.line">
-            <field name="grid_id" ref="delivery_grid_af"/>
-            <field name="operator">&lt;=</field>
-            <field name="type">weight</field>
-            <field name="price_type">fixed</field>
-            <field name="sequence">10</field>
-            <field name="name">Weight &lt;= 30.0kg</field>
-            <field eval="30.0" name="max_value"/>
-            <field eval="2403" name="list_price"/>
-            <field eval="2403" name="standard_price"/>
+            <field eval="3448" name="list_price"/>
+            <field eval="3448" name="standard_price"/>
         </record>
     </data>
 </openerp>
